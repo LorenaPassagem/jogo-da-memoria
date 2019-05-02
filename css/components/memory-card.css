@@ -6,8 +6,22 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16)
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
     
+}
+
+
+.memory-card.-front {
+    background: #fff; 
+}
+
+.memory-card.-front::before { 
+  content: "";
+  width: 95px;
+  height: 95px;
+  background-color: #d4d4d4;
+  border-radius: 50%;
+  position: absolute;
 }
 
 .memory-card > .icon {
@@ -15,25 +29,14 @@
     height: 100px;
 }
 
-.iconC { 
-   display: flex;
-   justify-content: flex-star;
-   align-items: flex-star;     
-   width: 155px;
-   height: 155px;
-   border-radius: 30px;
-   background: rgb(134, 66, 66);
-}
-
-.ball {
+/* .ball {
     width: 94px;
     height: 94px;
     background-color: #d4d4d4;
     border-radius: 60px;
-}
+} */
 
-.iconC > .card-c {     
-    width: 97.1px;
-    height: 97.1px;
- 
+.memory-card.-front > .icon {
+    position: absolute;
+    transform: translateY(-12px);
 }
