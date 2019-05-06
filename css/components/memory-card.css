@@ -1,3 +1,10 @@
+.wrap-card { 
+    display: flex;
+    flex-wrap: wrap;  
+    padding: 5px;
+    margin: 5px; 
+}
+
 .memory-card {
     width: 155px;
     height: 155px;
@@ -6,10 +13,11 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16); 
+    padding: 5px;
+    margin: 5px; 
     
 }
-
 
 .memory-card.-front {
     background: #fff; 
@@ -28,13 +36,6 @@
     width: 100px;
     height: 100px;
 }
-
-/* .ball {
-    width: 94px;
-    height: 94px;
-    background-color: #d4d4d4;
-    border-radius: 60px;
-} */
 
 .memory-card.-front > .icon {
     position: absolute;
