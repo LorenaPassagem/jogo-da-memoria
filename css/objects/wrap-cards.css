@@ -1,0 +1,9 @@
+.cards-wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.wrap-cards > .memory-card {
+    margin-bottom: 10px;
+}
